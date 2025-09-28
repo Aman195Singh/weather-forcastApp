@@ -1,0 +1,29 @@
+    // const apiKey="cc0c6f2482424f69bd874449252406";
+    // // const apiUrl=`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+
+    // const searchBox = document.querySelector(".search input");
+    // const searchButton = document.querySelector(".search button");
+
+    // async function checkWeather(city) {
+    //     const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no` )
+    //     var data = await response.json();
+    //     console.log(data);
+
+    // document.querySelector(".city").innerHTML = data.location.name;
+    // document.querySelector('.temp').innerHTML = Math.round(data.current.temp_c) +" °C";
+    // document.querySelector('.humidity').innerHTML = data.current.humidity+" %";
+    // document.querySelector('.wind').innerHTML = data.current.wind_kph+" km/hr";
+    // document.querySelector('.condition').innerHTML = data.current.condition.text;
+   
+    // const weatherIcon = document.querySelector('.weather-icon');
+    //     weatherIcon.src = "https:" + data.current.condition.icon;
+    //     weatherIcon.alt = data.current.condition.text;
+    
+
+        
+    // }
+
+    // searchButton.addEventListener("click",()=>{
+    //     checkWeather(searchBox.value);
+    // })
+   

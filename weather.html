@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather-app</title>
+    <link rel="stylesheet" href ="weather.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false" id="box">
+            <button><img src="weather-app-img/images/search.png"> </button>
+        </div>
+
+
+        
+        <!--           -->
+        <div class="search-history">
+        <h3>Recent Searches</h3>
+        <div class="history-list" id="historyList">
+            <!-- History items will be added here dynamically -->
+        </div>
+    </div>
+    
+    <div class="weather">
+        <!-- ... rest of your weather HTML ... -->
+
+
+
+
+
+    </div>
+
+        <div class="weather">
+            <p class="condition"> partially cloud</p>
+            <img src="weather-app-img/images/rain.png" class="weather-icon">
+            <h1 class="temp">22</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="weather-app-img/images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="weather-app-img/images/wind.png">
+                    <div>
+                        <p class="wind">15 </p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="weather.js"></script>
+</body>
+
+</html>
